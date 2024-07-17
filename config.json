@@ -1,0 +1,67 @@
+{
+    "token": "TOKEN",
+    "guild-id": "SERVEUR ID",
+
+    "stock-command-silent": false,
+    "remove-capture-from-stock": true,
+
+    "gen-channels": [SALON POUR GEN],
+    "admins": [Admin ID],
+    "roles": [
+        {
+            "id": 1250092061378613291,
+            "cooldown": 1500,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128867384496189,
+            "cooldown": 1200,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128898359431251,
+            "cooldown": 900,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128926712660100,
+            "cooldown": 720,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128954655244298,
+            "cooldown": 480,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128974343438336,
+            "cooldown": 300,
+            "gen-access": ["all"]
+        },
+        {
+            "id": 1254128992127291524,
+            "cooldown": 180,
+            "gen-access": ["all"]
+        }
+    ],
+
+    "messages": {
+        "noperms": "Vous n'êtes pas autorisé à utiliser cette commande.",
+        "wrongchannel": ":thinking: ",
+        "altsent": "Veuillez mettre une preuve du compte dans le salon https://discord.com/channels/1231561542130995220/1250468333728301127",
+        "footer-msg": ".gg/astragen"
+    },
+
+    "generate-settings": {
+        "gif-img-url": "https://cdn.discordapp.com/attachments/1205224035663876147/1250445433419862077/standard_9.gif?ex=6675838f&is=6674320f&hm=c4fdc8a6554cf14d92c09eca21ef5515985c23ffe7760898313af211aef7b7a7&"
+    },
+
+    "colors": {
+        "error": 16713025,
+        "success": 330099,
+        "stock": 330099
+    },
+
+    "_comment1": "Size for uploading stock. Default: 2097152 == 2mb",
+    "maximum-file-size": 2097152
+}
